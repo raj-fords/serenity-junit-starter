@@ -10,17 +10,17 @@ You can use this project as a quick starting point for your own projects.
 
 Git:
 
-    git clone https://github.com/serenity-bdd/serenity-junit-starter.git
+    git clone https://github.com/raj-fords/serenity-junit-starter.git
     cd serenity-junit-starter
 
 
-Or simply [download a zip](https://github.com/serenity-bdd/serenity-junit-starter/archive/master.zip) file.
+Or simply [download a zip](https://github.com/raj-fords/serenity-junit-starter/archive/master.zip) file.
 
 ## Use Maven
 
 Open a command window and run:
 
-    mvn clean verify
+    mvn clean verify -DtestENV=INTEGRATION -DappName=TEST-APP
 
 ## Use Gradle
 
